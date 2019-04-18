@@ -33,7 +33,8 @@ public class Problema2 {
         z = entrada.nextLine(); 
         
         // Procesos
-        m1= Double.parseDouble(x)+ (Double.parseDouble(y)/Double.parseDouble(z));
+        m1= Double.parseDouble(x)+ (Double.parseDouble(y)/
+                Double.parseDouble(z));
                 
         m2= Double.parseDouble(x)-(Double.parseDouble(y)/Double.parseDouble
              (z)); 
@@ -41,7 +42,8 @@ public class Problema2 {
         
         System.out.println(m);
        // Presentacion de resultado
-       System.out.printf("El valor de m, en base a las variables:\nx =%s\n  y=%s \n   z=%s\nda como resultado:\n\tm=%.2f",x,y,z,m);
+       System.out.printf("El valor de m, en base a las variables:\nx =%s\n  "
+               + "y=%s \n   z=%s\nda como resultado:\n\tm=%.2f",x,y,z,m);
               
  
         
